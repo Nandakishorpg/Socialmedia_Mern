@@ -1,0 +1,22 @@
+
+.nav-links:hover{
+    color: rgb(93, 176, 201);
+    cursor: pointer;
+}
+
+.nav-links {
+    /* border:1px solid red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nav-flex{
+
+text-align: start;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+

@@ -1,0 +1,21 @@
+
+.tweet-rowBtn{
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tweet-rowBtn:hover{
+    background-color: rgb(223, 217, 217);
+}
+
+.tweet-rowBtn-Row:hover{
+    transition: all 0.3s ease-in-out; 
+    /* border: 1px solid red; */
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 10px;
+  }
