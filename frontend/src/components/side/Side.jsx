@@ -9,7 +9,7 @@ import {
   NavItem,
 } from "react-bootstrap";
 import "./side.css";
-import { Add, Home } from "@mui/icons-material";
+import { Add, BluetoothAudioOutlined, BookmarkBorderOutlined, EmailOutlined, Home, NotificationsNone, Person2Outlined, Tag } from "@mui/icons-material";
 
 export default function Side() {
   return (
@@ -49,7 +49,7 @@ export default function Side() {
               
             
             >
-              <Nav className="flex-column text-center gap-5 nav-flex">
+              <Nav className="flex-column text-center gap-4 nav-flex">
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
@@ -59,14 +59,14 @@ export default function Side() {
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
-                    <Home style={{fontSize:'inherit'}}  />
+                    <Tag style={{fontSize:'inherit'}}  />
                      <span style={{ color: "black" }}>Exolore</span>{" "}
                   </div>{" "}
                 </NavItem>
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links" >
-                    <Home style={{fontSize:'inherit'}}  />{" "}
+                    <NotificationsNone style={{fontSize:'inherit'}}  />{" "}
                     <span style={{ color: "black" }}>Notification</span>{" "}
                   </div>{" "}
                 
@@ -74,25 +74,25 @@ export default function Side() {
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
-                    <Home style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Message</span>{" "}
+                    <EmailOutlined style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Message</span>{" "}
                   </div>{" "}
                 </NavItem>
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
-                    <Home style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Bookmark</span>{" "}
+                    <BookmarkBorderOutlined style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Bookmarks</span>{" "}
                   </div>{" "}
                 </NavItem>
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
-                    <Home style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Lists</span>{" "}
+                    <BluetoothAudioOutlined style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Twitter Blue</span>{" "}
                   </div>{" "}
                 </NavItem>
                 <NavItem className="NavItems">
                   {" "}
                   <div className="nav-links">
-                    <Home style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>profile</span>{" "}
+                    <Person2Outlined style={{fontSize:'inherit'}}  /> <span style={{ color: "black" }}>Profile</span>{" "}
                   </div>{" "}
                 </NavItem>
                 <NavItem className="NavItems">

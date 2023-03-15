@@ -11,11 +11,44 @@
 
 .tweet-rowBtn-Row:hover{
     transition: all 0.3s ease-in-out; 
-    /* border: 1px solid red; */
+    /* border: 1px solid red solid red; */
 }
 
-input[type="text"] {
+.tweet-write_input {
     border: none;
     outline: none;
     padding: 10px;
   }
+  .tweet-write_input::placeholder{
+    font-size: 1.6rem;
+  }
+  .tweet-addnew-emojies{
+    display: flex;
+    align-items: center;
+  }
+/* .tweet-emojies >*:hover{
+    cursor:pointer;
+    
+} */
+
+/* .div{
+    color: ;
+} */
+
+
+
+/* .tweet-emojies >*{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  } */
+  
+  .tweet-emojies >*:hover {
+    cursor: pointer;
+    background-color: rgba(236, 230, 230, 0.3);
+  }
+  
+
