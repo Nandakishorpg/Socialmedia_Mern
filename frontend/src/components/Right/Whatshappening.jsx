@@ -14,20 +14,16 @@ color:"blue
   return (
     <>
       <div className="whatshappening-container"
-        style={{ backgroundColor: "white", height: "100px", width: "100%" }}
+        style={{ backgroundColor: "#f7f4f4", height: "65vh" }}
       >
-        <div
-          style={{ width: "80%", height: "100%",backgroundColor:"#f7f4f4",borderRadius:"25px" }}
-          >
+       
 
       <Title>
 
         hello
       </Title>
 
-      <myInput>
-        hihihihi
-      </myInput>
+      
     
 
 
@@ -35,7 +31,6 @@ color:"blue
 
 
           
-        </div>
       </div>
     </>
   );

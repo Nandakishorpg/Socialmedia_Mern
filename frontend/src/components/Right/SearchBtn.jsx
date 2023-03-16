@@ -6,7 +6,8 @@ import { styled } from "@mui/material";
 export default function SearchBtn() {
   const StyledInput = styled(Input)({
     background: "#f7f4f4",
-    borderRadius: "25px",
+    borderRadius: "20px",
+    width:"100%",
 
     padding: "10px 20px",
     "&:hover": {
@@ -21,7 +22,7 @@ export default function SearchBtn() {
   return (
     <>
       <div>
-        <StyledInput placeholder="Search Twitter" />;
+        <StyledInput placeholder="Search Twitter" />
       </div>
     </>
   );
